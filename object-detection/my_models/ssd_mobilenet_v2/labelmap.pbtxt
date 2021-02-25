@@ -1,0 +1,49 @@
+item {
+  id: 1
+  name: 'australianbee'
+}
+
+item {
+  id: 2
+  name: 'bluetonguedlizard'
+}
+
+item {
+  id: 3
+  name: 'carpetpython'
+}
+
+item {
+  id: 4
+  name: 'centralbeardeddragon'
+}
+
+item {
+  id: 5
+  name: 'europeanwasp'
+}
+
+item {
+  id: 6
+  name: 'longlegsspider'
+}
+
+item {
+  id: 7
+  name: 'lowlandcopperhead'
+}
+
+item {
+  id: 8
+  name: 'redback'
+}
+
+item {
+  id: 9
+  name: 'redbelliedblacksnake'
+}
+
+item {
+  id: 10
+  name: 'tarantula'
+}

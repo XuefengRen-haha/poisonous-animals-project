@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F188F7F725E51D55003A430E /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = F188F7F125E51D54003A430E /* Assets */; };
+		F188F7F825E51D55003A430E /* Models in Resources */ = {isa = PBXBuildFile; fileRef = F188F7F225E51D54003A430E /* Models */; };
+		F188F7F925E51D55003A430E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F188F7F325E51D55003A430E /* Images.xcassets */; };
+		F188F7FA25E51D55003A430E /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = F188F7F425E51D55003A430E /* Controllers */; };
+		F188F7FB25E51D55003A430E /* Supporting Files in Resources */ = {isa = PBXBuildFile; fileRef = F188F7F525E51D55003A430E /* Supporting Files */; };
+		F188F7FC25E51D55003A430E /* Views in Resources */ = {isa = PBXBuildFile; fileRef = F188F7F625E51D55003A430E /* Views */; };
+		F188F80425E51F22003A430E /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = F188F7FF25E51F22003A430E /* Pods */; };
+		F188F80525E51F22003A430E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F188F80025E51F22003A430E /* README.md */; };
+		F188F80625E51F22003A430E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F188F80125E51F22003A430E /* Podfile */; };
+		F188F80725E51F22003A430E /* PoisonousAnimals.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = F188F80225E51F22003A430E /* PoisonousAnimals.xcworkspace */; };
+		F188F80825E51F22003A430E /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = F188F80325E51F22003A430E /* Podfile.lock */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F188F7D525E51CC5003A430E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F188F7B625E51CC4003A430E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F188F7BD25E51CC4003A430E;
+			remoteInfo = PoisonousAnimals;
+		};
+		F188F7E025E51CC5003A430E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F188F7B625E51CC4003A430E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F188F7BD25E51CC4003A430E;
+			remoteInfo = PoisonousAnimals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F188F7BE25E51CC4003A430E /* PoisonousAnimals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoisonousAnimals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F188F7D425E51CC5003A430E /* PoisonousAnimalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoisonousAnimalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F188F7DF25E51CC5003A430E /* PoisonousAnimalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoisonousAnimalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F188F7F125E51D54003A430E /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		F188F7F225E51D54003A430E /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		F188F7F325E51D55003A430E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F188F7F425E51D55003A430E /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		F188F7F525E51D55003A430E /* Supporting Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Supporting Files"; sourceTree = "<group>"; };
+		F188F7F625E51D55003A430E /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		F188F7FF25E51F22003A430E /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		F188F80025E51F22003A430E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F188F80125E51F22003A430E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F188F80225E51F22003A430E /* PoisonousAnimals.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = PoisonousAnimals.xcworkspace; sourceTree = "<group>"; };
+		F188F80325E51F22003A430E /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F188F7BB25E51CC4003A430E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188F7D125E51CC5003A430E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188F7DC25E51CC5003A430E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F188F7B525E51CC4003A430E = {
+			isa = PBXGroup;
+			children = (
+				F188F80125E51F22003A430E /* Podfile */,
+				F188F80325E51F22003A430E /* Podfile.lock */,
+				F188F7FF25E51F22003A430E /* Pods */,
+				F188F80225E51F22003A430E /* PoisonousAnimals.xcworkspace */,
+				F188F80025E51F22003A430E /* README.md */,
+				F188F7C025E51CC4003A430E /* PoisonousAnimals */,
+				F188F7BF25E51CC4003A430E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F188F7BF25E51CC4003A430E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F188F7BE25E51CC4003A430E /* PoisonousAnimals.app */,
+				F188F7D425E51CC5003A430E /* PoisonousAnimalsTests.xctest */,
+				F188F7DF25E51CC5003A430E /* PoisonousAnimalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F188F7C025E51CC4003A430E /* PoisonousAnimals */ = {
+			isa = PBXGroup;
+			children = (
+				F188F7F125E51D54003A430E /* Assets */,
+				F188F7F425E51D55003A430E /* Controllers */,
+				F188F7F325E51D55003A430E /* Images.xcassets */,
+				F188F7F225E51D54003A430E /* Models */,
+				F188F7F525E51D55003A430E /* Supporting Files */,
+				F188F7F625E51D55003A430E /* Views */,
+			);
+			path = PoisonousAnimals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F188F7BD25E51CC4003A430E /* PoisonousAnimals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F188F7E825E51CC5003A430E /* Build configuration list for PBXNativeTarget "PoisonousAnimals" */;
+			buildPhases = (
+				F188F7BA25E51CC4003A430E /* Sources */,
+				F188F7BB25E51CC4003A430E /* Frameworks */,
+				F188F7BC25E51CC4003A430E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoisonousAnimals;
+			productName = PoisonousAnimals;
+			productReference = F188F7BE25E51CC4003A430E /* PoisonousAnimals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F188F7D325E51CC5003A430E /* PoisonousAnimalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F188F7EB25E51CC5003A430E /* Build configuration list for PBXNativeTarget "PoisonousAnimalsTests" */;
+			buildPhases = (
+				F188F7D025E51CC5003A430E /* Sources */,
+				F188F7D125E51CC5003A430E /* Frameworks */,
+				F188F7D225E51CC5003A430E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F188F7D625E51CC5003A430E /* PBXTargetDependency */,
+			);
+			name = PoisonousAnimalsTests;
+			productName = PoisonousAnimalsTests;
+			productReference = F188F7D425E51CC5003A430E /* PoisonousAnimalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F188F7DE25E51CC5003A430E /* PoisonousAnimalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F188F7EE25E51CC5003A430E /* Build configuration list for PBXNativeTarget "PoisonousAnimalsUITests" */;
+			buildPhases = (
+				F188F7DB25E51CC5003A430E /* Sources */,
+				F188F7DC25E51CC5003A430E /* Frameworks */,
+				F188F7DD25E51CC5003A430E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F188F7E125E51CC5003A430E /* PBXTargetDependency */,
+			);
+			name = PoisonousAnimalsUITests;
+			productName = PoisonousAnimalsUITests;
+			productReference = F188F7DF25E51CC5003A430E /* PoisonousAnimalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F188F7B625E51CC4003A430E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F188F7BD25E51CC4003A430E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F188F7D325E51CC5003A430E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F188F7BD25E51CC4003A430E;
+					};
+					F188F7DE25E51CC5003A430E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F188F7BD25E51CC4003A430E;
+					};
+				};
+			};
+			buildConfigurationList = F188F7B925E51CC4003A430E /* Build configuration list for PBXProject "PoisonousAnimals" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F188F7B525E51CC4003A430E;
+			productRefGroup = F188F7BF25E51CC4003A430E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F188F7BD25E51CC4003A430E /* PoisonousAnimals */,
+				F188F7D325E51CC5003A430E /* PoisonousAnimalsTests */,
+				F188F7DE25E51CC5003A430E /* PoisonousAnimalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F188F7BC25E51CC4003A430E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F188F7FC25E51D55003A430E /* Views in Resources */,
+				F188F80425E51F22003A430E /* Pods in Resources */,
+				F188F7F825E51D55003A430E /* Models in Resources */,
+				F188F7F725E51D55003A430E /* Assets in Resources */,
+				F188F80725E51F22003A430E /* PoisonousAnimals.xcworkspace in Resources */,
+				F188F7F925E51D55003A430E /* Images.xcassets in Resources */,
+				F188F80825E51F22003A430E /* Podfile.lock in Resources */,
+				F188F7FA25E51D55003A430E /* Controllers in Resources */,
+				F188F80625E51F22003A430E /* Podfile in Resources */,
+				F188F80525E51F22003A430E /* README.md in Resources */,
+				F188F7FB25E51D55003A430E /* Supporting Files in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188F7D225E51CC5003A430E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188F7DD25E51CC5003A430E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F188F7BA25E51CC4003A430E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188F7D025E51CC5003A430E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188F7DB25E51CC5003A430E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F188F7D625E51CC5003A430E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F188F7BD25E51CC4003A430E /* PoisonousAnimals */;
+			targetProxy = F188F7D525E51CC5003A430E /* PBXContainerItemProxy */;
+		};
+		F188F7E125E51CC5003A430E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F188F7BD25E51CC4003A430E /* PoisonousAnimals */;
+			targetProxy = F188F7E025E51CC5003A430E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F188F7E625E51CC5003A430E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F188F7E725E51CC5003A430E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F188F7E925E51CC5003A430E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U35GBC9TK3;
+				INFOPLIST_FILE = PoisonousAnimals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xuefeng.PoisonousAnimals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F188F7EA25E51CC5003A430E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U35GBC9TK3;
+				INFOPLIST_FILE = PoisonousAnimals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xuefeng.PoisonousAnimals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F188F7EC25E51CC5003A430E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U35GBC9TK3;
+				INFOPLIST_FILE = PoisonousAnimalsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xuefeng.PoisonousAnimalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoisonousAnimals.app/PoisonousAnimals";
+			};
+			name = Debug;
+		};
+		F188F7ED25E51CC5003A430E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U35GBC9TK3;
+				INFOPLIST_FILE = PoisonousAnimalsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xuefeng.PoisonousAnimalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoisonousAnimals.app/PoisonousAnimals";
+			};
+			name = Release;
+		};
+		F188F7EF25E51CC5003A430E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U35GBC9TK3;
+				INFOPLIST_FILE = PoisonousAnimalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xuefeng.PoisonousAnimalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoisonousAnimals;
+			};
+			name = Debug;
+		};
+		F188F7F025E51CC5003A430E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U35GBC9TK3;
+				INFOPLIST_FILE = PoisonousAnimalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xuefeng.PoisonousAnimalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoisonousAnimals;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F188F7B925E51CC4003A430E /* Build configuration list for PBXProject "PoisonousAnimals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188F7E625E51CC5003A430E /* Debug */,
+				F188F7E725E51CC5003A430E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F188F7E825E51CC5003A430E /* Build configuration list for PBXNativeTarget "PoisonousAnimals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188F7E925E51CC5003A430E /* Debug */,
+				F188F7EA25E51CC5003A430E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F188F7EB25E51CC5003A430E /* Build configuration list for PBXNativeTarget "PoisonousAnimalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188F7EC25E51CC5003A430E /* Debug */,
+				F188F7ED25E51CC5003A430E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F188F7EE25E51CC5003A430E /* Build configuration list for PBXNativeTarget "PoisonousAnimalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F188F7EF25E51CC5003A430E /* Debug */,
+				F188F7F025E51CC5003A430E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F188F7B625E51CC4003A430E /* Project object */;
+}

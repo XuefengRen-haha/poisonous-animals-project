@@ -1,0 +1,6 @@
+framework module Pods_SpiderRecognizer {
+  umbrella header "Pods-SpiderRecognizer-umbrella.h"
+
+  export *
+  module * { export * }
+}
